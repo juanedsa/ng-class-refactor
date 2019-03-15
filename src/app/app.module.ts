@@ -2,13 +2,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { GemComponent } from './components/gem/gem.component';
 import { CommonModule } from '@angular/common';
+import { StoneComponent } from './components/stone/stone.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    GemComponent
+    StoneComponent
   ],
   imports: [
     BrowserModule,

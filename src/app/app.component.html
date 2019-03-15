@@ -1,10 +1,10 @@
 <div class="container">
   <div class="container__title">
-    The Infity Stones
+    The Infinity Stones
   </div>
-  <div class="container__gems">
-    <ng-container *ngFor="let gem of gems">
-        <app-gem [type]="gem"></app-gem>
+  <div class="container__stones">
+    <ng-container *ngFor="let stone of stones">
+        <app-stone [type]="stone"></app-stone>
     </ng-container>
   </div>
 </div>

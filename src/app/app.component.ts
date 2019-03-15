@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { STONES } from './components/stone/stones.constants';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  public gems = [1, 2, 3, 4, 5, 6];
+  public stones = [
+    STONES.MIND,
+    STONES.POWER,
+    STONES.REALITY,
+    STONES.SOUL,
+    STONES.SPACE,
+    STONES.TIME
+  ];
 }
